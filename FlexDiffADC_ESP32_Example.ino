@@ -38,7 +38,7 @@ Licensed under the Apache License, Version 2.0.
 
 //SPI Configuration: max SPI clock rate for this ADC is 40MHz, 
 //you can set the clock faster (over clock ADC) but at a reduced ADC amplitude ouput 
-SPISettings adsSettings(40000000, MSBFIRST, SPI_MODE1);  
+SPISettings adsSettings(40000000, MSBFIRST, SPI_MODE0);  
 
 //settings specific to burst mode, first variable sets the number of points measured in a burst
 #if defined(MODE_BURST_CAPTURE)

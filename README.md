@@ -1,6 +1,7 @@
 # FlexDiffADC_ESP32_Example
 This example Arduino sketch is meant to work with Anabit's Flex Differential ADC open source reference design
-Product link: 
+
+Product link: https://anabit.co/products/flex-differential-adc
 
 This version is meant to work with an ESP32 based Arduino because it uses fast pin setting functions (faster than digitalwrite) to help get the max sample rate 
 from the ADC. See the other Flex ADC example code sketch that is configured to work with any arduino board
